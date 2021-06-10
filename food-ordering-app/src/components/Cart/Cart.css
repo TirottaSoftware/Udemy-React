@@ -1,0 +1,94 @@
+.cart-modal{
+    position: fixed;
+    top: 20vh;
+    left: 40%;
+    width: 20%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+}
+.cart-item{
+    display:flex;
+    justify-content: space-between;
+    background: white;
+    padding: 2%;
+    margin: 1% 0;
+    border-radius: 10px;
+}
+.cart-item h3{
+  width: 50%;
+  white-space: nowrap;
+}
+.btn-remove{
+  font-size: 1.5rem;
+  padding:0 5%;
+  margin-right: 3%;
+  border:none;
+  background:crimson;
+  color:white;
+  border-radius: 50%;
+}
+.cart-title{
+    text-align: center;
+    margin-bottom: 1%;
+}
+.cart-modal-buttons{
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+.cart-modal-buttons button{
+    margin:0 3%;
+    padding:1% 5%;
+    font-size: 1rem;
+    border-radius: 15px;  
+    border: 1px solid black;
+}
+#btn-order{
+    background-color: crimson;
+    color:white;
+    border:none;
+}
+.modal-divider{
+    width: 100%;
+    height: 1.5px;
+    background-color: crimson;
+}
+.cart-total{
+    text-align: center;
+}
+/* Max modal css */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  /* .modal {
+  }
+  
+  @media (min-width: 768px) {
+    .modal {
+      width: 40rem;
+      left: calc(50% - 20rem);
+    }
+  }
+  
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } */

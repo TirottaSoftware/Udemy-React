@@ -1,0 +1,43 @@
+.meals-container{
+    display:flex;
+    width: 80%;
+    margin: 15% 10%;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.meal{
+    width: calc(23% - 8px);
+    border:1px solid white;
+    margin: 3px;
+    padding: 1%;
+    background: beige;
+}
+.meal h1{
+    font-size: 2rem;
+}
+.meal p{
+    font-size: 1.5rem;
+}
+.meal button{
+    font-size:1.5rem;
+    padding: 1% 3%;
+    margin:1% 0;
+    cursor: pointer;
+    border:1px solid black;
+}
+.meal-options{
+    display: flex;
+}
+.meal-amount{
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.meal-amount label{
+    margin: 0 5%;
+}
+.meal-amount button{
+    padding: 0% 20%;
+    margin: 0 5%
+}
+
